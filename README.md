@@ -3,7 +3,7 @@
 A weather dashboard built with vanilla JavaScript, CSS, HTML and Webpack. This project was developed as part of **The Odin Project** curriculum to practice working with APIs, asynchronous data handling, and dynamic DOM manipulation.
 
 ## Live Demo
-[View Live Project]()
+[View Live Project](https://luchopalacio.github.io/weather-app/)
 
 ## Features
 - **Real-time Data:** Fetches live weather information from the OpenWeather API.
@@ -23,13 +23,13 @@ A weather dashboard built with vanilla JavaScript, CSS, HTML and Webpack. This p
 ## Getting Started
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+Make sure you have Node.js installed on your machine.
 
 ### Installation
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/weather-app.git](https://github.com/YOUR_USERNAME/weather-app.git)
+git clone https://github.com/luchopalacio/weather-app.git
  ```
 2. **Navigate to the project directory:**
 ```bash

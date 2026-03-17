@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1 id ="main-title">Check the Weather!</h1>
+
+    <form id="weather-form">
+        <input id="city-input" name="city" type="text" placeholder="Enter city name" required>
+        <button type="submit">🔍</button>
+    </form>
+
+    <div id="weather-card" class="card-hidden"> </div>
+
+    <div id="loading-spinner" class="spinner-hidden">
+        <div class="spinner"></div>
+        <p>Searching city...</p>
+    </div>
+    
+    <dialog id="error-modal">
+        <p id="error-message">Error finding the city</p>
+        <button id="close-button" autofocus>Close</button>
+    </dialog>
+</body>
+</html>
